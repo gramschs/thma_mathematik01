@@ -1,0 +1,38 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 5b2b125f-2976-40a0-a7b1-b9224c49973b
+  title: Mathematik 1
+  description: Vorlesungsskript für die Vorlesung Mathematik 1 (Maschinenbau) an der TH Mannheim
+  keywords: ["Vektoren", "Funktionen", "Komplexe Zahlen", "Differentialrechnung", "Integralrechnung"]
+  authors: ["Simone Gramsch"]
+  github: https://github.com/gramschs/thma_mathematik01
+  license: CC-BY-NC-SA-4.0
+  open_access: true
+
+  numbering:
+    math: false
+    headings: false
+
+  toc:
+    - file: intro.md
+    - file: toc.md
+#    - title: 1. Zahlen und Gleichungen
+#      children:
+#      - file: chapter01/chapter01_sec01.md   # 1.1 Aussagen und Mengen
+#      - file: chapter01/chapter01_sec02.md   # 1.2 Reelle Zahlen
+#      - file: chapter01/chapter01_ueb01.md   # Übung zu 1.1 und 1.2
+#      - file: chapter01/chapter01_sec03.md
+#      - file: chapter01/chapter01_sec04.md
+#      - file: chapter01/chapter01_ueb02.md
+#      - file: chapter01/chapter01_sec05.md
+#      - file: chapter01/chapter01_sec06.md
+#      - file: chapter01/chapter01_ueb03.md
+#      - file: chapter01/chapter01_ueb04.md   # Übungen zum Selbststudium
+
+site:
+  template: book-theme
+  options:
+    style: ./my_styling.css
+  #  favicon: favicon.ico
+  #  logo: logo.png
