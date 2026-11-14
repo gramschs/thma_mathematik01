@@ -1,0 +1,42 @@
+# Öffentliches Repo: MyST-Skript
+
+# macOS
+.DS_Store
+._*
+
+# Editoren
+.vscode/
+.idea/
+
+# Lokale Claude-Dateien (nie ins Repo)
+CLAUDE.md
+.claude/
+
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+
+# LaTeX-Hilfsdateien
+*.aux
+*.log
+*.toc
+*.out
+*.nav
+*.snm
+*.vrb
+*.xdv
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.listing
+*.bbl
+*.blg
+
+# MyST-Build
+_build/
+
+# Projektspezifisch
+# Interne Planung, nicht veröffentlichen
+Gliederung.md
